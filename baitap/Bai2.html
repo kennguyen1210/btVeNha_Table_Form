@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        h1,h2,h4,h5,h6 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .w30 {
+            width: 25%;
+            margin-right: 30px;
+        }
+        .w70 {
+            width: 70%;
+        }
+        .swap {
+            width: 70%;
+            margin: 50px auto;
+        }
+        input, textarea {
+            width: 90%;
+            margin: 5px 0;
+            padding: 5px;
+        }
+        hr {
+            width: 50px;
+            height: 3px;
+            background-color: rgb(243, 175, 28);
+            margin-left:0 ;
+            margin-top: 5px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        button {
+            background-color: rgb(10, 156, 144);
+            padding: 10px;
+            border: none;
+            color: white;
+        }
+        i {
+            font-size: 30px;
+            padding-right: 10px;
+            color: #ccc;
+        }
+        p {
+            color: #ccc;
+            margin-top: 0;
+        }
+        .raw {
+            display: flex;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="swap">
+        <div class="title">
+            <h2>CONtTACT US</h2>
+            <hr/>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col w30">
+                    <h3>Contact Info</h3>
+                    <div class="raw">
+                        <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div><p>321 Awesome Street New York, NY 17022</p></div>
+                    </div>
+
+                    <div class="raw">
+                        <div><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div><p>info@companyname.com</p></div>
+                    </div>
+
+                    <div class="raw">
+                        <div><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div><p>+1 800 123 1234</p></div>
+                    </div>
+                </div>
+                <div class="col w70">
+                    <h3>Having Any Query! Or Book an appointment</h3>
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .swap {
+            width: 65%;
+            margin: 50px auto;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        h2 {
+            padding-top: 0;
+            margin-bottom: 20px;
+        }
+        .raw ,.submit {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .email, .name {
+            width: 48%;
+    
+        }
+        .subject, .message {
+            width: 100%;
+        }
+        button {
+            margin: 10px 0;
+            background-color: rgb(13, 169, 216);
+            color: white;
+            border-radius: 3px;
+        }
+        input , textarea {
+            margin: 5px 0;
+            padding: 10px;
+            text-indent: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="swap">
+        <div class="content">
+            <h2>Get in touch with us by filling contact form below</h2>
+            <div class="raw">
+                <input type="text" placeholder="*Enter your full name" class="name">
+                <input type="text" placeholder="*Enter your email address" class="email">  
+            </div>
+            <input class="subject" type="text" placeholder="Enter your subject">
+            <textarea name="" id="" cols="30" rows="20" class="message" placeholder="*Your message there..."></textarea>
+            <div class="submit">
+                <button type="submit">Send message</button>
+                <p>*Please fill all requied for filed, thank!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
